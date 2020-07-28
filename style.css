@@ -1,0 +1,30 @@
+
+
+.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 29px;
+}
+.cardlist{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    
+    
+}
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #282828;
+    text-align: center;
+    display: flex;
+     justify-content: center;
+ }
+#movies{
+    margin: 0 auto;
+}
+@media screen and (max-width: 1850px){
+    #movies{
+        width:1100px;
+    }
+}
